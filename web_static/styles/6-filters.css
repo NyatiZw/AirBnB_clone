@@ -1,0 +1,38 @@
+.locations {
+	height: 100%;
+	width: 25%;
+	border-right: 1px solid #DDDDDD;
+}
+
+.amenities {
+	height: 100%;
+	width: 25%;
+}
+
+h3 {
+	font-weight: 600;
+}
+
+h4 {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.popover {
+	color: #FAFAFA;
+	width: inherit;
+	border: #DDDDDD solid 1px;
+	border-radius: 4px;
+	display: none;
+	padding: 0;
+	list-style-type: none;
+}
+
+#state_name {
+	font-size: 16px;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+	display: block;
+}
